@@ -198,8 +198,8 @@ const HomePage = () => {
                 <span className="text-xl font-bold">Kirei House</span>
               </div>
               <p className="text-muted-foreground mb-4">
-                Your perfect beachfront getaway in a prime location with
-                stunning views and modern amenities.
+                A perfect retreat for mindful travelers seeking beauty in
+                simplicity.
               </p>
             </div>
             <div>
