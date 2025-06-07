@@ -69,8 +69,8 @@ const HomePage = () => {
       <section className="relative">
         <div className="h-[70vh] w-full overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&q=80"
-            alt="Luxury Beach House"
+            src="/images/HAB04056-HDR.jpg"
+            alt="Luxury Zen House"
             className="w-full h-full object-cover"
           />
         </div>
@@ -78,7 +78,7 @@ const HomePage = () => {
           <div className="text-center text-white p-4">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">Kirei House</h1>
             <p className="text-xl md:text-2xl mb-8">
-              Your perfect beachfront getaway awaits
+              Kirei House - Ito | Luxury Living | Minimalist | Pet-friendly
             </p>
             <Button size="lg" className="text-lg px-8 py-6">
               <Calendar className="mr-2 h-5 w-5" /> Book Your Stay
@@ -93,9 +93,14 @@ const HomePage = () => {
           <div>
             <h2 className="text-3xl font-bold mb-6">Welcome to Kirei House</h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Experience luxury living in our stunning beachfront property. With
-              breathtaking ocean views, modern amenities, and a prime location,
-              Kirei House offers the perfect setting for your dream vacation.
+              Tucked away in the heart of Eastwood City is Kirei House - Ito, a
+              serene Muji-inspired space high above the city. Designed with
+              minimalist elegance, it features warm wood, sunlit corners, and
+              clean lines. Relax in the elevated lounge, work by the window, or
+              unwind in the cozy bedroom with sweeping skyline views. Every
+              detail is curated for calm and comfort. A perfect retreat for
+              mindful travelers seeking beauty in simplicity. Book now and
+              experience the art of minimal living.
             </p>
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-3">
@@ -105,7 +110,7 @@ const HomePage = () => {
                 <div>
                   <p className="font-medium">Prime Location</p>
                   <p className="text-sm text-muted-foreground">
-                    Just steps away from the beach
+                    In the heart of Quezon City
                   </p>
                 </div>
               </div>
@@ -135,7 +140,7 @@ const HomePage = () => {
           </div>
           <div className="rounded-lg overflow-hidden shadow-xl">
             <img
-              src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80"
+              src="/images/HAB04299-HDR.jpg"
               alt="Property Exterior"
               className="w-full h-auto"
             />
@@ -193,8 +198,8 @@ const HomePage = () => {
                 <span className="text-xl font-bold">Kirei House</span>
               </div>
               <p className="text-muted-foreground mb-4">
-                Your perfect beachfront getaway in a prime location with
-                stunning views and modern amenities.
+                A perfect retreat for mindful travelers seeking beauty in
+                simplicity.
               </p>
             </div>
             <div>
@@ -242,17 +247,20 @@ const HomePage = () => {
                 <div className="flex items-center gap-2 mb-2">
                   <MapPin className="h-4 w-4 text-primary" />
                   <span className="text-muted-foreground">
-                    123 Coastal Drive, Beachtown, CA 90210
+                    Eastwood Global Plaza Luxury Residence Palm Tree Avenue,
+                    Eastwood City, Libis, Quezon City 1800
                   </span>
                 </div>
                 <div className="flex items-center gap-2 mb-2">
                   <Phone className="h-4 w-4 text-primary" />
-                  <span className="text-muted-foreground">(555) 123-4567</span>
+                  <span className="text-muted-foreground">
+                    (63) 917-5069965
+                  </span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4 text-primary" />
                   <span className="text-muted-foreground">
-                    info@coastalretreat.com
+                    business.siriandres@gmail.com
                   </span>
                 </div>
               </address>

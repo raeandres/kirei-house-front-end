@@ -34,17 +34,19 @@ interface ContactSectionProps {
 }
 
 const ContactSection = ({
-  propertyAddress = "123 Vacation Lane",
-  propertyCity = "Beachside",
-  propertyState = "CA",
-  propertyZip = "90210",
-  hostName = "Jane Smith",
-  hostPhone = "(555) 123-4567",
-  hostEmail = "jane@vacationrentals.com",
+  propertyAddress = "39D Eastwood Global Plaza Luxury Residence",
+  propertyCity = "Palm Tree Avenue, Eastwood City, Libis",
+  propertyState = "Quezon City",
+  propertyZip = "1800",
+  hostName = "Siri Andres",
+  hostPhone = "(63) 917-506 9965",
+  hostEmail = "business.siriandres@gmail.com",
   nearbyAttractions = [
-    { name: "Beach Access", distance: "0.2 miles" },
-    { name: "Downtown Shopping", distance: "1.5 miles" },
-    { name: "National Park", distance: "5 miles" },
+    { name: "Eastwood City", distance: "0.1 km" },
+    { name: "Bonifacio Global City", distance: "6 km" },
+    { name: "Ortigas Center", distance: "3.8 km" },
+    { name: "Makati", distance: "7 km" },
+    { name: "Airport", distance: "12 km" },
   ],
   mapUrl = "https://images.unsplash.com/photo-1577086664693-894d8405334a?w=800&q=80",
 }: ContactSectionProps) => {
@@ -90,11 +92,13 @@ const ContactSection = ({
               <CardContent className="space-y-6">
                 {/* Interactive Map (placeholder image) */}
                 <div className="relative rounded-md overflow-hidden h-64 bg-muted">
-                  <img
-                    src={mapUrl}
-                    alt="Map of property location"
-                    className="w-full h-full object-cover"
-                  />
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5199.74430346861!2d121.08133734244423!3d14.6075846246003!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssg!4v1749335816648!5m2!1sen!2ssg"
+                    width="600"
+                    height="450"
+                    loading="lazy"
+                  ></iframe>
+
                   <div className="absolute bottom-3 right-3">
                     <Button
                       size="sm"
@@ -136,11 +140,11 @@ const ContactSection = ({
 
                 <Separator />
 
-                {/* Nearby Attractions */}
+                {/* Nearby Places */}
                 <div>
                   <h3 className="font-medium mb-3 flex items-center gap-2">
                     <Clock className="h-5 w-5 text-primary" />
-                    <span>Nearby Attractions</span>
+                    <span>Nearby Places</span>
                   </h3>
                   <ul className="space-y-2">
                     {nearbyAttractions.map((attraction, index) => (
@@ -208,7 +212,7 @@ const ContactSection = ({
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="John Doe"
+                      placeholder="Your Name"
                       required
                     />
                   </div>

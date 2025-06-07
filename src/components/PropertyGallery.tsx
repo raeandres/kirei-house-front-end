@@ -16,28 +16,28 @@ const PropertyGallery = ({ images = [] }: PropertyGalleryProps) => {
   const defaultImages = [
     {
       id: "1",
-      url: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
-      alt: "Modern living room with large windows and natural light",
+      url: "/images/HAB04380-HDR.jpg",
+      alt: "Bedroom Right 1",
     },
     {
       id: "2",
-      url: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
-      alt: "Stylish kitchen with marble countertops",
+      url: "/images/HAB04398-HDR.jpg",
+      alt: "Bedroom Facing window",
     },
     {
       id: "3",
-      url: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&q=80",
-      alt: "Cozy bedroom with king-size bed",
+      url: "/images/HAB04848-HDR.jpg",
+      alt: "Kitchen Stove 1",
     },
     {
       id: "4",
-      url: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
-      alt: "Modern bathroom with walk-in shower",
+      url: "/images/LHB08890.jpg",
+      alt: "Dining with plates",
     },
     {
       id: "5",
-      url: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200&q=80",
-      alt: "Outdoor patio with seating area",
+      url: "/images/LHB08845.jpg",
+      alt: "Bedroom Curtain Door",
     },
   ];
 
