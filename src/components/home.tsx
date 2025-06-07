@@ -247,17 +247,20 @@ const HomePage = () => {
                 <div className="flex items-center gap-2 mb-2">
                   <MapPin className="h-4 w-4 text-primary" />
                   <span className="text-muted-foreground">
-                    123 Coastal Drive, Beachtown, CA 90210
+                    Eastwood Global Plaza Luxury Residence Palm Tree Avenue,
+                    Eastwood City, Libis, Quezon City 1800
                   </span>
                 </div>
                 <div className="flex items-center gap-2 mb-2">
                   <Phone className="h-4 w-4 text-primary" />
-                  <span className="text-muted-foreground">(555) 123-4567</span>
+                  <span className="text-muted-foreground">
+                    (63) 917-5069965
+                  </span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4 text-primary" />
                   <span className="text-muted-foreground">
-                    info@coastalretreat.com
+                    business.siriandres@gmail.com
                   </span>
                 </div>
               </address>
