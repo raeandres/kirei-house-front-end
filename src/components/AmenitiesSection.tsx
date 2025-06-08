@@ -36,7 +36,7 @@ const AmenitiesSection = ({
   return (
     <div className="w-full py-8 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-6">Amenities</h2>
+        <h2 className="text-3xl font-bold mb-6">Facilities</h2>
         <Separator className="mb-6" />
 
         <Tabs
