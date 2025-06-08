@@ -130,9 +130,11 @@ const ContactSection = ({
                     <div>
                       <h3 className="font-medium">Directions</h3>
                       <p className="text-muted-foreground">
-                        From the airport, take Highway 101 North for 10 miles.
-                        Exit at Beach Road and turn right. The property will be
-                        on your left after 0.5 miles.
+                        From NAIA, take the route to Nichols to Lawton Avenue,
+                        then exit to C5. Straight ahead for 20-25 minutes. Turn
+                        right to Eastwood City, then follow Palm Tree Avenue -
+                        just a short drive to Eastwood Global Plaza Luxury
+                        Residences.
                       </p>
                     </div>
                   </div>
