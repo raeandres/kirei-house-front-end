@@ -101,9 +101,13 @@ const HomePage = () => {
                 <span>4.96 (53 reviews)</span>
               </div>
             </div>
+
             <Button size="lg" className="text-lg px-8 py-6">
-              <a href="#booking" className="Button"></a>
-              <Calendar className="mr-2 h-5 w-5" /> Book Your Stay
+              <a href="#booking" className="Button">
+                <div className="flex items-center">
+                  <Calendar className="mr-2 h-5 w-5" /> Book Your Stay
+                </div>
+              </a>
             </Button>
           </div>
         </div>
