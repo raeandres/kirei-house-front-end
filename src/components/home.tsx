@@ -15,6 +15,7 @@ import {
   Users,
   Star,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -93,7 +94,7 @@ const HomePage = () => {
             <div className="flex items-center justify-center gap-6 mb-12 text-sm">
               <div className="flex items-center gap-2">
                 <Users className="w-4 h-4" />
-                <span>Up to 6 guests</span>
+                <span>Up to 9 guests</span>
               </div>
               <div className="flex items-center gap-2">
                 <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
@@ -101,6 +102,7 @@ const HomePage = () => {
               </div>
             </div>
             <Button size="lg" className="text-lg px-8 py-6">
+              <a href="#booking" className="Button"></a>
               <Calendar className="mr-2 h-5 w-5" /> Book Your Stay
             </Button>
           </div>
@@ -265,7 +267,7 @@ const HomePage = () => {
               </h3>
               <address className="not-italic">
                 <div className="flex items-center gap-2 mb-2">
-                  <MapPin className="h-4 w-4 text-primary" />
+                  <MapPin className="h-8 w-8 text-primary" />
                   <span className="text-muted-foreground">
                     Eastwood Global Plaza Luxury Residence Palm Tree Avenue,
                     Eastwood City, Libis, Quezon City 1800
