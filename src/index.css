@@ -74,3 +74,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat-VariableFont_wght"),
+    url("./assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf");
+}

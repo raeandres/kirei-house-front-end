@@ -4,7 +4,17 @@ import PropertyGallery from "./PropertyGallery";
 import AmenitiesSection from "./AmenitiesSection";
 import BookingSystem from "./BookingSystem";
 import ContactSection from "./ContactSection";
-import { MapPin, Phone, Mail, Calendar, Home } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Calendar,
+  Home,
+  User,
+  User2,
+  Users,
+  Star,
+} from "lucide-react";
 
 const HomePage = () => {
   return (
@@ -13,7 +23,7 @@ const HomePage = () => {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <Home className="h-6 w-6" />
+            {/* <Home className="h-6 w-6" /> */}
             <span className="text-xl font-bold">Kirei House</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
@@ -42,7 +52,7 @@ const HomePage = () => {
               Contact
             </a>
           </nav>
-          <Button className="hidden md:inline-flex">Book Now</Button>
+          {/* <Button className="hidden md:inline-flex">Book Now</Button> */}
           <Button variant="outline" size="icon" className="md:hidden">
             <span className="sr-only">Toggle menu</span>
             <svg
@@ -80,6 +90,16 @@ const HomePage = () => {
             <p className="text-xl md:text-2xl mb-8">
               Kirei House - Ito | Luxury Living | Minimalist | Pet-friendly
             </p>
+            <div className="flex items-center justify-center gap-6 mb-12 text-sm">
+              <div className="flex items-center gap-2">
+                <Users className="w-4 h-4" />
+                <span>Up to 6 guests</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                <span>4.96 (53 reviews)</span>
+              </div>
+            </div>
             <Button size="lg" className="text-lg px-8 py-6">
               <Calendar className="mr-2 h-5 w-5" /> Book Your Stay
             </Button>
@@ -151,7 +171,7 @@ const HomePage = () => {
       {/* Gallery Section */}
       <section id="gallery" className="py-16 bg-muted/50">
         <div className="container">
-          <h2 className="text-3xl font-bold mb-2">Property Gallery</h2>
+          <h2 className="text-3xl font-bold mb-2">Gallery</h2>
           <p className="text-muted-foreground mb-8">
             Explore our beautiful property through images
           </p>
@@ -194,7 +214,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Home className="h-6 w-6" />
+                {/* <Home className="h-6 w-6" /> */}
                 <span className="text-xl font-bold">Kirei House</span>
               </div>
               <p className="text-muted-foreground mb-4">
