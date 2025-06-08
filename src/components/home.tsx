@@ -80,7 +80,7 @@ const HomePage = () => {
       <section className="relative">
         <div className="h-[70vh] w-full overflow-hidden">
           <img
-            src="/images/HAB04056-HDR.jpg"
+            src="/images/hero/living_1.jpg"
             alt="Luxury Zen House"
             className="w-full h-full object-cover"
           />
@@ -166,7 +166,7 @@ const HomePage = () => {
           </div>
           <div className="rounded-lg overflow-hidden shadow-xl">
             <img
-              src="/images/HAB04299-HDR.jpg"
+              src="/images/hero/dining_1.jpg"
               alt="Property Exterior"
               className="w-full h-auto"
             />

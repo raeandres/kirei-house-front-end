@@ -16,28 +16,28 @@ const PropertyGallery = ({ images = [] }: PropertyGalleryProps) => {
   const defaultImages = [
     {
       id: "1",
-      url: "/images/HAB04380-HDR.jpg",
-      alt: "Bedroom Right 1",
+      url: "/images/gallery/bedroom_front_1.jpg",
+      alt: "Bedroom front 1",
     },
     {
       id: "2",
-      url: "/images/HAB04398-HDR.jpg",
-      alt: "Bedroom Facing window",
+      url: "/images/showcase/living_angle_1.jpg",
+      alt: "Living room Angle 1",
     },
     {
       id: "3",
-      url: "/images/HAB04848-HDR.jpg",
+      url: "/images/hero/kitchen_left_1.jpg",
       alt: "Kitchen Stove 1",
     },
     {
       id: "4",
-      url: "/images/LHB08890.jpg",
+      url: "/images/amenities/kitchen_plates.jpg",
       alt: "Dining with plates",
     },
     {
       id: "5",
-      url: "/images/LHB08845.jpg",
-      alt: "Bedroom Curtain Door",
+      url: "/images/showcase/ramen_2.jpg",
+      alt: "Pet friendly",
     },
   ];
 
