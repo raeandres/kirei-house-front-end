@@ -16,12 +16,12 @@ const PropertyGallery = ({ images = [] }: PropertyGalleryProps) => {
   const defaultImages = [
     {
       id: "1",
-      url: "/images/gallery/bedroom_front_1.jpg",
+      url: "/images/gallery/bed_window_angle_2_cp.jpg",
       alt: "Bedroom front 1",
     },
     {
       id: "2",
-      url: "/images/showcase/living_angle_1.jpg",
+      url: "/images/gallery/bed_window_cp.jpg",
       alt: "Living room Angle 1",
     },
     {
@@ -31,7 +31,7 @@ const PropertyGallery = ({ images = [] }: PropertyGalleryProps) => {
     },
     {
       id: "4",
-      url: "/images/amenities/kitchen_plates.jpg",
+      url: "/images/gallery/dining_plates_cp.jpg",
       alt: "Dining with plates",
     },
     {
